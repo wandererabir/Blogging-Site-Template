@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>OA</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container-fluid main">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+              <a class="navbar-brand brand" href="#">
+                  <h3><strong>Local</strong></h3>
+                  <h5 class="text-center">WanderLust</h5>
+              </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+           <i class="fas fa-bars"></i>
+          </button>
+        
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto w-100 justify-content-end">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a></li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Recent Posts</a></li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Travel Map</a></li>
+                  <li class="nav-item">
+                    <div class='button center'>Log In</div>
+                  </li>
+                  <li class="nav-item">
+                    <div class='button center'>Subscribe</div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+    
+    
+        <div class="intro">
+            <h4 class="head text-center">Explore the Colorful World</h4>
+            <center><hr size="20" style="background:red; width: 110px; height: 3px; opacity: 0.5;"></center>
+            <h1 class="heading">Write your own story with Local WanderLust</h1>
+            <p><button onclick="window.location.href='#'"class="btn btn-large">Sign Up</button></p>
+        </div>
+    </div>
+    <div class="featured">
+      <div class="search-bar">
+        <form class="row no-gutters flex-column flex-md-row align-items-md-end">
+          <div class="col-12 col-md">
+            <label for="type">Type</label>
+            <select class="form-control" id="type" name="type">
+              <option value="1">Family</option>
+              <option value="2">Adventure</option>
+              <option value="3">Couple</option>
+              <option value="4">Solo</option>
+              <option value="5">Friends</option>
+            </select>
+          </div>
+          <div class="col-12 col-md">
+            <label for="keywords">Keywords</label>
+            <input class="form-control" id="keywords" name="keywords" type="text" placeholder="Enter your keywords" />
+          </div>
+          <div class="col-12 col-md-auto">
+            <button class="btn" type="submit">Search</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="container-fluid blogs">
+        <br><br>
+        <h1>Featured Posts</h1>
+        <center><hr size="20" style="background:rgb(0, 0, 0); width: 110px; height: 3px; opacity: 0.7;"></center>
+        <br>
+        <div class="blog-card">
+        <div class="meta">
+            <div class="photo" style="background-image: url(https://images.unsplash.com/photo-1536776814195-034a8b6e6d16?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1331&q=80)"></div>
+          <ul class="details">
+            <li class="author"><a style="text-decoration:none;" href="#">Jane Doe</a></li>
+            <li class="date">Sep 07, 2021</li>
+            <li class="tags">
+              <ul>
+                <li>Leh</li>
+                <li>Trek</li>
+                <li>Mountain</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="description">
+          <h2>Conquer Your Fear with Leh Ladakh</h2>
+          <h3>Jane's Journal</h3>
+          <p1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste saepe totam exercitationem autem earum ipsa officia ea placeat quam maiores sint expedita architecto dolorem sit, libero quo dicta, consectetur porro!</p1>
+          <p1 class="read-more">
+            <a href="#">Read More</a>
+          </p1>
+        </div>
+        </div>
+      
+        <div class="blog-card alt">
+          <div class="meta">
+            <div class="photo" style="background-image: url(https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1332&q=80)"></div>
+            <ul class="details">
+              <li class="author"><a style="text-decoration:none;" href="#">John Smith</a></li>
+              <li class="date">Sep 16, 2021</li>
+              <li class="tags">
+                <ul>
+                  <li>Kerala</li>
+                  <li>Adventure</li>
+                  <li>Solo</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="description">
+            <h2>Kerala Backpacking</h2>
+            <h3>John's Journal</h3>
+            <p1>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam veritatis quam officiis beatae similique expedita! Inventore quo suscipit quis, dolor quam excepturi distinctio tempora ex pariatur enim omnis deleniti sed!</p1>
+            <p1 class="read-more">
+              <a href="#">Read More</a>
+            </p1>
+          </div>
+          </div>
+
+          <div class="blog-card">
+            <div class="meta">
+                <div class="photo" style="background-image: url(https://images.unsplash.com/photo-1622225641765-8c8ef0dcb678?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=687&q=80)"></div>
+              <ul class="details">
+                <li class="author"><a style="text-decoration:none;" href="#">Sam Doe</a></li>
+                <li class="date">Oct 28, 2021</li>
+                <li class="tags">
+                  <ul>
+                    <li>Rajasthan</li>
+                    <li>Family</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="description">
+              <h2>Rajasthan's Padharo mhare desh </h2>
+              <h3>Sam's Journal</h3>
+              <p1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste saepe totam exercitationem autem earum ipsa officia ea placeat quam maiores sint expedita architecto dolorem sit, libero quo dicta, consectetur porro!</p1>
+              <p1 class="read-more">
+                <a href="#">Read More</a>
+              </p1>
+            </div>
+            </div>
+        
+      </div>
+
+      <div class="container-fluid category">
+        <br><br>
+        <h1>Featured Places</h1>
+        <center><hr size="20" style="background:rgb(255, 255, 255); width: 110px; height: 3px; opacity: 0.7;"></center>
+        <br>
+      </div>
+
+      
+
+
+    </div>
+    
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+</body>
+</html>
