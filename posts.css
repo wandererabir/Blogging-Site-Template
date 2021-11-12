@@ -185,6 +185,7 @@ body {
   color:cadetblue;
 }
 .social a:hover{
+  text-decoration: none;
   color:black;
 }
 
@@ -228,6 +229,11 @@ body {
 
 .nav__ul a {
   color: #999;
+  text-decoration: none;
+}
+
+.nav__ul a:hover{
+  text-decoration: none;
 }
 
 .nav__ul--extra {
