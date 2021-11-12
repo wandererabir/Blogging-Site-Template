@@ -9,7 +9,7 @@ body {
   background-size: cover;
 }
 .intro {
-  height: 500px;
+  height: 350px;
   margin-top: -20px;
 }
 .intro .head{
@@ -26,23 +26,7 @@ body {
   font-family: serif;
   padding-top: 20px;
 }
-.intro p {
-  text-align: center;
-  padding: 20px 60px;
-}
-.intro p .btnn {
-  background-color: rgb(228, 60, 60);
-  border: 0 none;
-  border-radius:36px;
-  color: white;
-  padding: 10px;
-  font-size: 1.2em;
-}
-.intro p .btnn:hover {
-  background-color:white;
-  color: #000000;
-  border-color: #000000;
-}
+
 .navbar{
   background-color: transparent;
 
@@ -145,29 +129,6 @@ body {
   .card .text-muted i {
     margin: 0 10px;
   }
-
-  .pagination {
-    display: inline-block;
-  }
-  
-  .pagination a {
-    color: black;
-    float: left;
-    padding: 8px 16px;
-    text-decoration: none;
-  }
-  
-  .pagination a.active {
-    background-color: #4CAF50;
-    color: white;
-  }
-  
-  .pagination a:hover:not(.active) {
-    background-color: #ddd;
-    text-decoration: none;
-  }
-
-
 
 
   /*Footer*/
